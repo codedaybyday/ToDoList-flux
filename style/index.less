@@ -1,0 +1,145 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+body{
+  background: #CDCDCD;
+}
+.header{
+  background: rgba(47,47,47,0.98);
+  height:50px;
+  line-height:50px;
+  section{
+    width:500px;
+    margin:0 auto;
+    form{
+      display:inline-block;
+      float:right;
+      width:60%;
+      input{
+        box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+        height:24px;
+        border-radius: 5px;
+        line-height: 24px;
+        width:100%;
+      }
+    }
+    babel{
+      width:100px;
+      color:#DDD;
+      font-size:24px;
+      float:left;
+    }
+  }
+}
+.footer{
+  text-align: center;
+  color:#666;
+}
+.content{
+  width:500px;
+  margin:0 auto;
+  .incompleted-list{
+    overflow: hidden;
+  }
+  .completed-list{
+    overflow: hidden;
+  }
+  .title{
+    margin: 10px auto;
+    overflow: hidden;
+  }
+  .count{
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    width:20px;
+    border-radius: 50%;
+    background: #E6E6FA;
+    color:#666;
+    font-size:14px;
+  }
+  .item{
+    height:32px;
+    line-height: 32px;
+    border-radius: 3px;
+    border-left:5px solid #629A9C;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    input{
+      height:22px;
+      width:22px;
+      display: inline-block;
+      margin-top:4px;
+    }
+    span{
+      height:32px;
+      line-height: 32px;
+      display: inline-block;
+    }
+    a{
+      //top: 2px;
+      //right: 5px;
+      display: inline-block;
+      margin:3px 5px 0 0;
+      width: 14px;
+      height: 12px;
+      border-radius: 14px;
+      border: 6px double #FFF;
+      background: #CCC;
+      line-height: 14px;
+      text-align: center;
+      color: #FFF;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  .done-item{
+    height:32px;
+    line-height: 32px;
+    border-radius: 3px;
+    border-left:5px solid #999;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    input{
+      height:22px;
+      width:22px;
+      display: inline-block;
+      margin-top:4px;
+    }
+    span{
+      height:32px;
+      line-height: 32px;
+      display: inline-block;
+    }
+    a{
+      //top: 2px;
+      //right: 5px;
+      display: inline-block;
+      margin:3px 5px 0 0;
+      width: 14px;
+      height: 12px;
+      border-radius: 14px;
+      border: 6px double #FFF;
+      background: #CCC;
+      line-height: 14px;
+      text-align: center;
+      color: #FFF;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
